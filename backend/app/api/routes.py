@@ -1,5 +1,5 @@
-from .services.math_solver import solve_math_problem
-from .services.llm_explainer import explain_math
+from app.services.math_solver import solve_math_problem
+from app.services.llm_explainer import explain_math
 from fastapi import APIRouter
 
 router = APIRouter()
